@@ -1,0 +1,80 @@
+body {
+    width: 350px;
+    margin: 0;
+    padding: 0 10px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th{
+    padding: 10px; 
+    width: 33%;
+}
+
+td{
+    width: 33%;
+    padding: 10px;
+}
+
+th{
+    color: white;
+    background-color: darkcyan;
+}
+
+.row-2{
+    text-align: center;
+}
+
+.row-3{
+    text-align: right;
+}
+
+.yellow
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Испытание: итоговая таблица</title>
+    </head>
+    <body>
+        <h1>Итоговая таблица</h1>
+        <table>
+            <tr>
+                <th style="text-align: left;">Город</th>
+                <th style="background-color: lightblue; text-align: center;">Посещений</th>
+                <th style="text-align: right;">%</th>
+            </tr>
+            <tr>
+                <td>СПб</td>
+                <td class="row-2">199</td>
+                <td class="row-3">65.12</td>
+            </tr>
+            <tr>
+                <td>Москва</td>
+                <td class="row-2">69</td>
+                <td class="row-3">21.3</td>
+            </tr>
+            <tr>
+                <td>Киев</td>
+                <td class="row-2">5</td>
+                <td class="row-3">8</td>
+            </tr>
+            <tr>
+                <td colspan="2">Посещений за весь период</td>
+                <td class="row-3">273</td>
+            </tr>
+        </table>
+        
+        Город       Посещений       %
+        СПб         199             65.12
+        Москва      69              21.3
+        Киев        5               8
+        Посещений за весь период    273
+
+    </body>
+</html>
